@@ -1,8 +1,11 @@
 @import "settings";
 @import "foundation";
 
-$font-stack:    "Comic Sans MS", sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,400italic,700,700italic,300);
+
+$font-stack: "Roboto Condensed", sans-serif;
 $primary-color: #333;
+$portfolio-bg-color: rgb(25, 25, 40);
 
 body {
   font: 100% $font-stack;
