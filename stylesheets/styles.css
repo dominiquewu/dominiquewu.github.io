@@ -9735,8 +9735,3 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 7, ../scss/styles.scss */
-body {
-  font: 100% "Comic Sans MS", sans-serif;
-  color: #333;
-}
