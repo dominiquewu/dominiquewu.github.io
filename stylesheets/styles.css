@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,400italic,700,700italic,300);
 /* line 431, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.3/";
@@ -9734,4 +9735,9 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important;
   }
+}
+/* line 10, ../scss/styles.scss */
+body {
+  font: 100% "Roboto Condensed", sans-serif;
+  color: #333;
 }
