@@ -3,4 +3,53 @@
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  background-color: #00668E;
+}
+
+$sidebar-width: 114px;
+$nav-color: #333;
+
+.wrapper {
+  background-color:white;
+}
+
+.nav-sidebar {
+  position:fixed;
+}
+
+.item label {
+  text-align:left;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  max-width: 2048px;
+  margin: 0px;
+}
+
+.logo {
+  margin-top:10px;
+  margin-left:10px;
+  position:fixed;
+  width: 10%;
+  z-index:9999;
+ }
+ 
+.footer {
+  // position: fixed;
+  // width: 100%;
+  // bottom: 0;
+  // height: 100px; 
+}
+
+.nav-sidebar-bottom {
+  width:100% !important;
+}
+
+.nav-sidebar-top {
+  width:100% !important;  
 }

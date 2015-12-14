@@ -82,6 +82,7 @@ $include-html-global-classes: $include-html-classes;
 // $row-width: rem-calc(1000);
 // $total-columns: 12;
 // $column-gutter: rem-calc(30);
+$column-gutter: 0;
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -106,7 +107,7 @@ $include-html-global-classes: $include-html-classes;
 // $iron        : #CCCCCC;
 // $base        : #AAAAAA;
 // $aluminum    : #999999;
-// $jumbo       : #888888;
+// $jumbo       : #92.88888;
 // $monsoon     : #777777;
 // $steel       : #666666;
 // $charcoal    : #555555;
@@ -642,8 +643,8 @@ $include-html-global-classes: $include-html-classes;
 // $form-label-pointer: pointer;
 // $form-label-font-size: rem-calc(14);
 // $form-label-font-weight: $font-weight-normal;
-// $form-label-line-height: 1.5;
-// $form-label-font-color: scale-color($black, $lightness: 30%);
+$form-label-line-height: 0.5;
+//$form-label-font-color: scale-color($black, $lightness: 30%);
 // $form-label-small-transform: capitalize;
 // $form-label-bottom-margin: 0;
 // $input-font-family: inherit;
@@ -713,17 +714,17 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to style the icon-bar and items
-// $icon-bar-bg: $oil;
-// $icon-bar-font-color: $white;
+$icon-bar-bg: #ffffff;
+$icon-bar-font-color: #eb008b;
 // $icon-bar-font-color-hover: $icon-bar-font-color;
 // $icon-bar-font-size: 1rem;
-// $icon-bar-hover-color: $primary-color;
+ $icon-bar-hover-color: transparent;
 // $icon-bar-icon-color: $white;
 // $icon-bar-icon-color-hover: $icon-bar-icon-color;
 // $icon-bar-icon-size: 1.875rem;
 // $icon-bar-image-width: 1.875rem;
 // $icon-bar-image-height: 1.875rem;
-// $icon-bar-active-color: $primary-color;
+// $icon-bar-active-color: #ffffff;
 // $icon-bar-item-padding: 1.25rem;
 
 // We use this to set default opacity and cursor for disabled icons.
@@ -820,8 +821,8 @@ $include-html-global-classes: $include-html-classes;
 // We use these to style the label text
 // $label-font-sizing: rem-calc(11);
 // $label-font-weight: $font-weight-normal;
-// $label-font-color: $oil;
-// $label-font-color-alt: $white;
+//$label-font-color: #eb008b;
+// $label-font-color-alt: #eb008b;
 // $label-font-family: $body-font-family;
 
 // 17. Magellan
