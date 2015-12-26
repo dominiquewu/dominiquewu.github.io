@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,400italic,700,700italic,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 /* line 431, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.3/";
@@ -9742,41 +9743,42 @@ body {
   color: #333;
 }
 
-/* line 3, ../scss/app.scss */
+/* line 8, ../scss/app.scss */
 body {
   font: 100% "Roboto Condensed", sans-serif;
   color: #333;
-  background-color: #00668E;
+  background-color: #1d1e1c;
 }
 
-/* line 12, ../scss/app.scss */
+/* line 17, ../scss/app.scss */
 .wrapper {
-  background-color: white;
+  background-color: #31302d;
+  background-image: url("../img/tile_01.svg");
 }
 
-/* line 16, ../scss/app.scss */
+/* line 22, ../scss/app.scss */
 .nav-sidebar {
   position: fixed;
 }
 
-/* line 20, ../scss/app.scss */
+/* line 26, ../scss/app.scss */
 .item label {
   text-align: left;
 }
 
-/* line 24, ../scss/app.scss */
+/* line 30, ../scss/app.scss */
 .content img {
   width: 100%;
   height: auto;
 }
 
-/* line 29, ../scss/app.scss */
+/* line 35, ../scss/app.scss */
 .row {
   max-width: 2048px;
   margin: 0px;
 }
 
-/* line 34, ../scss/app.scss */
+/* line 40, ../scss/app.scss */
 .logo {
   margin-top: 10px;
   margin-left: 10px;
@@ -9785,12 +9787,18 @@ body {
   z-index: 9999;
 }
 
-/* line 49, ../scss/app.scss */
+/* line 48, ../scss/app.scss */
+.logo name {
+  color: #fff200;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 60, ../scss/app.scss */
 .nav-sidebar-bottom {
   width: 100% !important;
 }
 
-/* line 53, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .nav-sidebar-top {
   width: 100% !important;
 }

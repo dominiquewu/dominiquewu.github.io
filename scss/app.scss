@@ -1,16 +1,22 @@
 @import "styles";
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+$background-color:#1d1e1c;
+$wrapper-color:#31302d;
+
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
-  background-color: #00668E;
+  background-color: $background-color;
 }
 
 $sidebar-width: 114px;
 $nav-color: #333;
 
 .wrapper {
-  background-color:white;
+  background-color:$wrapper-color;
+  background-image: url("../img/tile_01.svg");
 }
 
 .nav-sidebar {
@@ -37,6 +43,11 @@ $nav-color: #333;
   position:fixed;
   width: 10%;
   z-index:9999;
+ }
+ 
+ .logo name {
+  color: #fff200;
+  font-family: 'Roboto', sans-serif;
  }
  
 .footer {
