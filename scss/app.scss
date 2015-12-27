@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 $background-color:#1d1e1c;
-$wrapper-color:#31302d;
-
+$wrapper-color-dark:#31302d;
+$wrapper-color:#f67da8;
 
 body {
   font: 100% $font-stack;
@@ -16,7 +16,8 @@ $nav-color: #333;
 
 .wrapper {
   background-color:$wrapper-color;
-  background-image: url("../img/tile_01.svg");
+  background-image: url("../img/tile_01.jpg");
+  background-attachment:fixed;
 }
 
 .nav-sidebar {
